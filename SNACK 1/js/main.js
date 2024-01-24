@@ -12,6 +12,7 @@ const vips = [
   "Maneskin",
 ];
 
+// CREO UN ARRAY CHE CONTENGA OGGETTI CON CHIAVI RICHIESTE DALLA TIPOGRAFIA
 const formattedList = vips.map((vip, posto) => {
   return {
     tableName: "Tavolo Vip",
@@ -20,5 +21,6 @@ const formattedList = vips.map((vip, posto) => {
   };
 });
 
+// STAMPO LE LISTE IN CONSOLE
 console.table("Lista invitati: \n" + vips);
 console.log("Lista per la tipografia \n", formattedList);
