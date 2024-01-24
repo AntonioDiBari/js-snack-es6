@@ -47,16 +47,22 @@ console.log(
 
 // ARRAY DI STUDENTI CON GRADE > 70
 const studentsGradeOver70 = students.filter((student) => student.grade > 70);
-console.log(studentsGradeOver70);
+console.log("Studenti con il grado superiore al 70: \n", studentsGradeOver70);
 
 // ARRAY DI STUDENTI CON GRADE > 70 E ID DOPO IL NUMERO 120 (USANDO ARRAY PRECENDETE)
 const studentsFilter = studentsGradeOver70.filter(
   (student) => student.id > 120
 );
-console.log(studentsFilter);
+console.log(
+  "Studenti con il grado superiore al 70 e ID successivo al 120: \n",
+  studentsFilter
+);
 
 // ARRAY DI STUDENTI CON GRADE > 70 E ID DOPO IL NUMERO 120 (PARTENDO SEMPRE DAL PRIMO ARRAY)
 const studentsFilter2 = students.filter(
   (student) => student.grade > 70 && student.id > 120
 );
-console.log(studentsFilter2);
+console.log(
+  "Studenti con il grado superiore al 70 e ID successivo al 120: \n",
+  studentsFilter2
+);
