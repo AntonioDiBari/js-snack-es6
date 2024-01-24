@@ -16,3 +16,10 @@ Questo è l'elenco degli studenti:
 | 196 | Luigi Grimaldello     | 68     |
 | 102 | Piero della Francesca | 50     |
 | 120 | Francesca da Polenta  | 84     |
+
+### SVOLGIMENTO
+
+- Inizializzato l'Array di oggetti comprendeti chiavi ID, Name e Grades
+- Mappo l'Array e ne creo uno contenente solo i nomi interamente in maiuscolo
+- Filtro l'Array e ne ricavo uno che ha come elementi gli obj degli studenti con voto superiore a 70
+- Filtro l'Array e ne ricavo uno che ha come elementi gli obj degli studenti con voto superiore a 70 e ID successivo al 120
