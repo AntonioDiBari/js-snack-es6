@@ -11,3 +11,7 @@ BONUS
 Stampare in pagina oltre che in console!
 
 ## SVOLGIMENTO
+
+- Inizializzo un array di oggetti che conterranno chiavi e valori inerrenti a nomeBicicletta e pesoBicicletta
+- Dichiaro la mia variabile per indicare la bici più leggera
+- Scorro l'array di oggetti confrontanto il peso di ogni oggetto stabilendo il più leggero e assegnandolo alla variabile.
