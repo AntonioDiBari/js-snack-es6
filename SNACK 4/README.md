@@ -13,3 +13,8 @@ Usa l'array allegato alla traccia per completare i seguenti punti:
    Stampare in pagina oltre che in console!
 
 ## SVOLGIMENTO
+
+- Inizializzato l'Array di oggetti lo scorro e per ogni oggetto creo un numero randomico per punteggio e falli subiti
+- Creo un Array vuoto da valorizzare
+- Scorro l'Array iniziale, lo destrutturo per ottenere nome e falli subiti e li aggiungo man mano al nuovo Array sotto forma di Obj.
+- Stampo quindi via via anche il suo contenuto
