@@ -1,5 +1,3 @@
 ### Snack Array Methods
 
-Dato questo Array, chiedere in quanti viaggiatori siete e prendere trovate la prima auto che soddisfa la richiesta.
-
-Snack 5: dato un array di oggetti che rappresentano delle auto, chiedete all'utente con quante persone deve viaggiare e trovate la prima auto che soddisfa la richiesta:
+Snack 6: avete a disposizione un elenco di frutti per fare una macedonia. Scegliete 2, 3 o 4 in modo casuale e calcolate il prezzo della macedonia:
